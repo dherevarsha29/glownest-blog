@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>GlowNest Beauty Blog | Skincare Routines, Glowing Skin Tips &amp; Clean Beauty</title>
+  <meta name="description" content="Discover science-backed skincare routines, dermatologist-approved glowing skin tips, and clean beauty secrets at GlowNest Beauty Blog. Achieve radiant, healthy skin naturally.">
+  <meta name="keywords" content="skincare tips, glowing skin, beauty blog, skincare routine, clean beauty, dermatologist advice, healthy skin, anti-aging, hydration">
+  <meta name="author" content="GlowNest Beauty Editorial Team">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://glownestbeauty.com/">
+  <meta property="og:title" content="GlowNest Beauty Blog | Science-Backed Skincare &amp; Glowing Skin">
+  <meta property="og:description" content="Your daily sanctuary for luminous skincare rituals, active ingredients guides, and holistic self-care.">
+  <meta property="og:image" content="assets/images/hero-banner.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GlowNest Beauty Blog | Healthy Glowing Skin Tips">
+  <meta name="twitter:description" content="Expert-approved skincare secrets, barrier repair methods, and radiant skin guides.">
+  <meta name="twitter:image" content="assets/images/hero-banner.jpg">
+
+  <!-- Favicon & Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Structured Data (JSON-LD) for Digital Marketing & Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "GlowNest Beauty Blog",
+    "description": "A modern skincare and beauty publication providing evidence-based routines, cosmetic chemistry insights, and holistic wellness guides.",
+    "url": "https://glownestbeauty.com/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "GlowNest Beauty",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://glownestbeauty.com/assets/images/hero-banner.jpg"
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Announcement Bar (Social & Marketing Campaign) -->
+  <div class="announcement-bar" role="region" aria-label="Announcement">
+    <span>🌸 <strong>Spring Glow Edition:</strong> Download the 7-Day Glass Skin Routine Guide</span>
+    <a href="blog.html" id="announcement-cta">Read Featured Article &rarr;</a>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="site-header">
+    <div class="container navbar">
+      <!-- Brand Logo -->
+      <a href="index.html" class="logo-wrapper" aria-label="GlowNest Beauty Blog Homepage">
+        <div class="logo-symbol" aria-hidden="true">G</div>
+        <div class="logo-text">
+          GlowNest
+          <span>Beauty Blog</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="blog.html" class="nav-link">Featured Article</a></li>
+          <li><a href="#categories" class="nav-link">Categories</a></li>
+          <li><a href="#featured" class="nav-link">Trending Guides</a></li>
+          <li><a href="#routine-quiz" class="nav-link">Glow Quiz</a></li>
+          <li><a href="#newsletter" class="nav-link">Newsletter</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header CTAs & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="blog.html" class="btn btn-primary" id="header-read-btn">
+          <span>Read Latest</span> &rarr;
+        </a>
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-tag">
+            <span></span>
+            Science-Backed Skincare &amp; Mindful Beauty
+          </div>
+          <h1 class="hero-title" id="hero-heading">
+            Nurture Your Skin, <em>Illuminate</em> Your Natural Glow.
+          </h1>
+          <p class="hero-desc">
+            Welcome to GlowNest Beauty Blog — your expert sanctuary for cosmetic chemistry breakdowns, daily morning &amp; night rituals, and dermatologist-tested secrets for lasting skin vitality.
+          </p>
+          
+          <div class="hero-actions">
+            <a href="blog.html" class="btn btn-primary" id="hero-main-cta">
+              10 Tips for Glowing Skin &rarr;
+            </a>
+            <a href="#categories" class="btn btn-secondary" id="hero-explore-cta">
+              Explore Categories
+            </a>
+          </div>
+
+          <!-- Proof / Authority Statistics -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h4>100%</h4>
+              <p>Derm Approved</p>
+            </div>
+            <div class="stat-item">
+              <h4>45k+</h4>
+              <p>Monthly Readers</p>
+            </div>
+            <div class="stat-item">
+              <h4>28-Day</h4>
+              <p>Skin Renewal Method</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Display -->
+        <div class="hero-visual">
+          <div class="hero-img-card">
+            <img src="assets/images/hero-banner.jpg" 
+                 alt="Aesthetic luxury botanical serums and cosmetic glass bottles on marble table" 
+                 width="640" 
+                 height="440" 
+                 loading="eager">
+            
+            <!-- Floating Feature Badge -->
+            <div class="hero-badge-float">
+              <div class="hero-badge-icon" aria-hidden="true">✨</div>
+              <div class="hero-badge-text">
+                <strong>Clean Botanical Radiance</strong>
+                <span>Tested by clinical aestheticians</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Blog Section -->
+    <section class="featured-section section-spacing" id="featured" aria-labelledby="featured-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-badge">Editor's Spotlight</span>
+          <h2 id="featured-heading">Featured Skincare Masterclasses</h2>
+          <p class="section-subtitle">In-depth, research-backed guides crafted to elevate your daily beauty ritual.</p>
+        </header>
+
+        <!-- Main Featured Article Card (Requested Main Article) -->
+        <article class="featured-main-card" id="main-featured-post">
+          <div class="featured-main-img">
+            <img src="assets/images/glowing-skin-article.jpg" 
+                 alt="Radiant healthy woman applying botanical glow serum with a glass dropper" 
+                 loading="lazy">
+            <span class="featured-badge-pill">Trending #1</span>
+          </div>
+          <div class="featured-main-body">
+            <div class="card-meta">
+              <span class="card-category">Holistic Skincare</span>
+              <span class="card-meta-dot" aria-hidden="true"></span>
+              <time datetime="2026-09-30">September 30, 2026</time>
+              <span class="card-meta-dot" aria-hidden="true"></span>
+              <span>8 Min Read</span>
+            </div>
+            
+            <h3 class="featured-main-title">
+              <a href="blog.html">10 Skincare Tips for Healthy and Glowing Skin</a>
+            </h3>
+            
+            <p class="featured-main-excerpt">
+              Unlock the foundational science behind true skin luminosity. From proper double cleansing protocols and broad-spectrum SPF to barrier lipid replenishment, here is everything you need for radiant skin.
+            </p>
+
+            <div class="author-chip">
+              <img src="assets/images/author-portrait.jpg" 
+                   alt="Dr. Sarah Jenkins - Certified Aesthetician" 
+                   width="44" 
+                   height="44">
+              <div class="author-chip-info">
+                <strong>Dr. Sarah Jenkins</strong>
+                <span>Certified Aesthetician &amp; Cosmetic Biochemist</span>
+              </div>
+            </div>
+
+            <div>
+              <a href="blog.html" class="btn btn-primary" id="read-main-article-btn">
+                Read Full Article &rarr;
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Secondary Articles Grid -->
+        <div class="articles-grid">
+          <!-- Article Card 1 -->
+          <article class="article-card" data-category="barrier">
+            <div class="card-img-wrapper">
+              <img src="assets/images/skincare-flatlay.jpg" 
+                   alt="Skincare flatlay with rose quartz roller, facial oil, and barrier repair cream" 
+                   loading="lazy">
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-category">Moisture Barrier</span>
+                <span class="card-meta-dot" aria-hidden="true"></span>
+                <span>5 Min Read</span>
+              </div>
+              <h4 class="card-title">
+                <a href="blog.html#tip-6">How to Repair a Damaged Skin Barrier in 14 Days</a>
+              </h4>
+              <p class="card-excerpt">
+                Stinging, redness, and sudden breakouts? Learn how to identify barrier compromise and re-build lipid matrices with ceramides and fatty acids.
+              </p>
+              <div class="card-footer">
+                <span class="author-name">By Dr. Sarah Jenkins</span>
+                <a href="blog.html#tip-6" class="read-more-link">Read Guide &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article Card 2 -->
+          <article class="article-card" data-category="sun">
+            <div class="card-img-wrapper">
+              <img src="assets/images/spf-protection.jpg" 
+                   alt="Broad spectrum SPF sunscreen lotion and serum bottle on warm beach sand" 
+                   loading="lazy">
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-category">Sun Protection</span>
+                <span class="card-meta-dot" aria-hidden="true"></span>
+                <span>6 Min Read</span>
+              </div>
+              <h4 class="card-title">
+                <a href="blog.html#tip-2">The Mineral vs. Chemical Sunscreen Guide: What Truly Shields Your Glow?</a>
+              </h4>
+              <p class="card-excerpt">
+                Sunscreen is non-negotiable for youthful skin. Discover the UVA/UVB protection filters that work seamlessly under makeup without white cast.
+              </p>
+              <div class="card-footer">
+                <span class="author-name">By GlowNest Team</span>
+                <a href="blog.html#tip-2" class="read-more-link">Read Guide &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article Card 3 -->
+          <article class="article-card" data-category="serums">
+            <div class="card-img-wrapper">
+              <img src="assets/images/clean-serums.jpg" 
+                   alt="Clear glass pipette dropper bottles with hyaluronic acid and radiance botanical serum" 
+                   loading="lazy">
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-category">Active Serums</span>
+                <span class="card-meta-dot" aria-hidden="true"></span>
+                <span>7 Min Read</span>
+              </div>
+              <h4 class="card-title">
+                <a href="blog.html#tip-3">Hyaluronic Acid vs. Glycerin: The Ultimate Hydration Showdown</a>
+              </h4>
+              <p class="card-excerpt">
+                Explore molecular humectants that draw moisture deep into dermal reservoirs without dehydrating your outer stratum corneum.
+              </p>
+              <div class="card-footer">
+                <span class="author-name">By Dr. Sarah Jenkins</span>
+                <a href="blog.html#tip-3" class="read-more-link">Read Guide &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skincare and Beauty Categories Section -->
+    <section class="categories-section section-spacing" id="categories" aria-labelledby="categories-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-badge">Browse By Topic</span>
+          <h2 id="categories-heading">Skincare &amp; Beauty Disciplines</h2>
+          <p class="section-subtitle">Tailored guides arranged by skin concerns, ingredient science, and daily habits.</p>
+        </header>
+
+        <!-- Category Filter Buttons for Interactive Exploration -->
+        <nav class="category-filter-nav" aria-label="Category Filter">
+          <button class="filter-btn active" data-filter="all">All Disciplines</button>
+          <button class="filter-btn" data-filter="routines">Daily Routines</button>
+          <button class="filter-btn" data-filter="actives">Actives &amp; Serums</button>
+          <button class="filter-btn" data-filter="sun">Sun &amp; Anti-Aging</button>
+          <button class="filter-btn" data-filter="clean">Clean Beauty</button>
+        </nav>
+
+        <!-- Categories Grid -->
+        <div class="categories-grid" id="categories-grid">
+          <!-- Category 1 -->
+          <div class="category-card" data-cat-type="routines">
+            <div class="category-icon-box" aria-hidden="true">🧴</div>
+            <span class="category-count">18 Articles</span>
+            <h3 class="category-name">Daily Routines</h3>
+            <p class="category-desc">Morning energizers and evening wind-down rituals for balanced epidermal health.</p>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="category-card" data-cat-type="actives">
+            <div class="category-icon-box" aria-hidden="true">🧪</div>
+            <span class="category-count">24 Articles</span>
+            <h3 class="category-name">Serums &amp; Actives</h3>
+            <p class="category-desc">Deep dives into Vitamin C, Niacinamide, Retinol, AHA/BHAs, and Peptides.</p>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="category-card" data-cat-type="sun">
+            <div class="category-icon-box" aria-hidden="true">☀️</div>
+            <span class="category-count">14 Articles</span>
+            <h3 class="category-name">Sun Protection (SPF)</h3>
+            <p class="category-desc">Broad-spectrum UV defenses, blue light mitigation, and photoaging shields.</p>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="category-card" data-cat-type="clean">
+            <div class="category-icon-box" aria-hidden="true">🌿</div>
+            <span class="category-count">16 Articles</span>
+            <h3 class="category-name">Clean &amp; Organic</h3>
+            <p class="category-desc">Sustainably harvested botanicals, cruelty-free formulas, and eco-packaging.</p>
+          </div>
+
+          <!-- Category 5 -->
+          <div class="category-card" data-cat-type="routines">
+            <div class="category-icon-box" aria-hidden="true">🛡️</div>
+            <span class="category-count">12 Articles</span>
+            <h3 class="category-name">Barrier Repair</h3>
+            <p class="category-desc">Lipid soothing formulas for compromised, inflamed, or sensitized skin.</p>
+          </div>
+
+          <!-- Category 6 -->
+          <div class="category-card" data-cat-type="clean">
+            <div class="category-icon-box" aria-hidden="true">🥑</div>
+            <span class="category-count">15 Articles</span>
+            <h3 class="category-name">Nutritional Glow</h3>
+            <p class="category-desc">Internal beauty foods, gut microbiome wellness, and hydration habits.</p>
+          </div>
+
+          <!-- Category 7 -->
+          <div class="category-card" data-cat-type="actives">
+            <div class="category-icon-box" aria-hidden="true">✨</div>
+            <span class="category-count">19 Articles</span>
+            <h3 class="category-name">Exfoliation &amp; Glow</h3>
+            <p class="category-desc">Chemical peeling, gentle enzymatic treatments, and micro-smoothing.</p>
+          </div>
+
+          <!-- Category 8 -->
+          <div class="category-card" data-cat-type="routines">
+            <div class="category-icon-box" aria-hidden="true">🌙</div>
+            <span class="category-count">11 Articles</span>
+            <h3 class="category-name">Night Cell Recovery</h3>
+            <p class="category-desc">Circadian rhythm sleep masks, peptide repair, and restorative sleep tips.</p>
+          </div>
+        </div>
+
+        <!-- Interactive Skincare Quiz Banner (Digital Marketing Lead Engagement) -->
+        <div class="quiz-banner" id="routine-quiz">
+          <div class="quiz-content">
+            <span class="section-badge" style="background: rgba(255,255,255,0.15); color: #fff;">Interactive Tool</span>
+            <h3>What Is Your Primary Skin Glow Goal?</h3>
+            <p>
+              Take our 10-second interactive assessment to get a curated selection of tips and product active pairings suited precisely for your skin type.
+            </p>
+            <a href="blog.html" class="btn btn-secondary">
+              Read 10 Universal Glow Rules &rarr;
+            </a>
+          </div>
+
+          <div class="quiz-interactive-box" id="quiz-box">
+            <div class="quiz-step-title" id="quiz-question">Select your primary complexion priority:</div>
+            <div class="quiz-options" id="quiz-options-group">
+              <button class="quiz-opt-btn" data-goal="glow">✨ Intense Radiance &amp; Fade Hyperpigmentation</button>
+              <button class="quiz-opt-btn" data-goal="hydration">💧 Deep Plumping Hydration &amp; Dryness Relief</button>
+              <button class="quiz-opt-btn" data-goal="barrier">🛡️ Calm Redness &amp; Soothe Sensitive Barrier</button>
+              <button class="quiz-opt-btn" data-goal="aging">⏳ Anti-Aging &amp; Collagen Elasticity</button>
+            </div>
+            <div class="quiz-result-box" id="quiz-result">
+              <!-- Dynamically populated via script.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media Marketing Showcase (Digital Marketing Assignment Element) -->
+    <section class="social-showcase section-spacing" id="social-community" aria-labelledby="social-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-badge">Join The Community</span>
+          <h2 id="social-heading">Follow @GlowNestBeauty on Instagram</h2>
+          <p class="section-subtitle">Real glow routines, ingredient infographics, and aesthetic daily inspiration shared with our 85,000+ community.</p>
+        </header>
+
+        <div class="instagram-grid">
+          <!-- Feed Item 1 -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-item" aria-label="View Instagram post on morning routine flatlay">
+            <img src="assets/images/hero-banner.jpg" alt="Botanical serum bottles morning light Instagram aesthetic" loading="lazy">
+            <div class="insta-overlay">
+              <span class="insta-handle">@glownestbeauty</span>
+              <p>Morning ritual essentials for luminous skin 🌸</p>
+              <span class="insta-likes">❤️ 2,410 likes</span>
+            </div>
+          </a>
+
+          <!-- Feed Item 2 -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-item" aria-label="View Instagram post on glowing skin results">
+            <img src="assets/images/glowing-skin-article.jpg" alt="Radiant woman applying serum Instagram post" loading="lazy">
+            <div class="insta-overlay">
+              <span class="insta-handle">@glownestbeauty</span>
+              <p>The 28-day turnover consistency check ✨</p>
+              <span class="insta-likes">❤️ 4,180 likes</span>
+            </div>
+          </a>
+
+          <!-- Feed Item 3 -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-item" aria-label="View Instagram post on jade roller and oils">
+            <img src="assets/images/skincare-flatlay.jpg" alt="Skincare flatlay with rose quartz roller on marble Instagram post" loading="lazy">
+            <div class="insta-overlay">
+              <span class="insta-handle">@glownestbeauty</span>
+              <p>Facial lymphatic drainage tips that work 🌿</p>
+              <span class="insta-likes">❤️ 1,920 likes</span>
+            </div>
+          </a>
+
+          <!-- Feed Item 4 -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="insta-item" aria-label="View Instagram post on SPF protection">
+            <img src="assets/images/spf-protection.jpg" alt="Sunscreen on beach sand Instagram post" loading="lazy">
+            <div class="insta-overlay">
+              <span class="insta-handle">@glownestbeauty</span>
+              <p>Rain or shine, SPF 50 is our Holy Grail ☀️</p>
+              <span class="insta-likes">❤️ 3,340 likes</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- High-Converting Newsletter Capture Section -->
+    <section class="newsletter-section section-spacing" id="newsletter" aria-labelledby="newsletter-heading">
+      <div class="container">
+        <div class="newsletter-card">
+          <span class="section-badge">Exclusive Glow Insiders</span>
+          <h2 id="newsletter-heading">Join Over 25,000 Glowing Skin Enthusiasts</h2>
+          <p class="section-subtitle">
+            Receive our free <strong>7-Day Glowing Skin Masterplan</strong>, clinical ingredient deep-dives, and seasonal skincare routine upgrades delivered weekly to your inbox.
+          </p>
+
+          <form class="newsletter-form" id="homepage-newsletter-form">
+            <input type="email" 
+                   class="newsletter-input" 
+                   placeholder="Enter your email address..." 
+                   required 
+                   aria-label="Your email address" 
+                   id="newsletter-email">
+            <button type="submit" class="btn btn-primary" id="newsletter-submit-btn">
+              Subscribe Free &rarr;
+            </button>
+          </form>
+          <span class="newsletter-privacy">🔒 Zero spam. Unsubscribe with one click anytime. Respecting your privacy.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Summary -->
+        <div class="footer-brand">
+          <div class="logo-wrapper">
+            <div class="logo-symbol" aria-hidden="true">G</div>
+            <div class="logo-text">
+              GlowNest
+              <span>Beauty Blog</span>
+            </div>
+          </div>
+          <p>
+            GlowNest Beauty is an editorial destination empowering readers through evidence-based skincare wisdom, non-toxic formulations, and mindful self-care rituals.
+          </p>
+          <div class="social-links" aria-label="Social media channels">
+            <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">📷</a>
+            <a href="https://pinterest.com" class="social-link" aria-label="Pinterest" target="_blank" rel="noopener noreferrer">📌</a>
+            <a href="https://tiktok.com" class="social-link" aria-label="TikTok" target="_blank" rel="noopener noreferrer">🎵</a>
+            <a href="https://youtube.com" class="social-link" aria-label="YouTube" target="_blank" rel="noopener noreferrer">▶️</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">10 Glowing Skin Tips</a></li>
+            <li><a href="#featured">Featured Articles</a></li>
+            <li><a href="#categories">Browse Categories</a></li>
+            <li><a href="#routine-quiz">Skincare Glow Quiz</a></li>
+          </ul>
+        </div>
+
+        <!-- Categories -->
+        <div class="footer-col">
+          <h4>Disciplines</h4>
+          <ul>
+            <li><a href="blog.html#tip-1">Double Cleansing</a></li>
+            <li><a href="blog.html#tip-2">Sun Protection (SPF)</a></li>
+            <li><a href="blog.html#tip-4">Vitamin C Radiance</a></li>
+            <li><a href="blog.html#tip-6">Barrier Repair</a></li>
+            <li><a href="blog.html#tip-7">Retinoids &amp; Night Care</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Mini-Widget in Footer -->
+        <div class="footer-col footer-newsletter">
+          <h4>Stay Radiant</h4>
+          <p>Get instant access to new articles, derm interviews, and exclusive giveaways.</p>
+          <form class="footer-newsletter-form" id="footer-newsletter-form">
+            <input type="email" class="footer-input" placeholder="Your email..." required aria-label="Footer email input" id="footer-email">
+            <button type="submit" class="btn btn-primary" style="padding: 0.65rem 1rem;">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="footer-disclaimer">
+          <strong>Editorial Disclaimer:</strong> The content provided on GlowNest Beauty Blog is for educational and informational purposes only. It is not intended as medical diagnosis, dermatology treatment, or healthcare advice. Always consult a board-certified dermatologist for specific skin concerns.
+        </div>
+        <div>
+          &copy; 2026 GlowNest Beauty Blog. Crafted for Digital Marketing &amp; Social Media Excellence.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Box -->
+  <div class="toast-msg" id="toast" role="status" aria-live="polite">
+    <span id="toast-icon">✨</span>
+    <span id="toast-text">Notification message</span>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">
+    &uarr;
+  </button>
+
+  <!-- JavaScript Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
